@@ -34,8 +34,8 @@ The goal of this project was to practice **DOM manipulation, event handling, and
 project-folder/
 │
 ├── index.html
-├── formValidation.css
-└── formValidation.js
+├── style.css
+└── script.js
 ```
 
 ---
