@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #9b9b60;
+  color: #080707;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  min-height: 500px;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+}
+
+.userLoginMethod {
+  background-color: transparent;
+  padding: 15px;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+}
+
+.userLoginMethod:hover {
+  background-color: #f3f3f3;
+}
+.userImage {
+  width: 80px;
+  height: 80px;
+  background-image: url(https://www.shutterstock.com/image-vector/icon-trendy-flat-style-isolated-260nw-1576637482.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-self: center;
+  margin-top: 2rem;
+  border-radius: 30px;
+}
+.formDiv {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+.inputFilds {
+  padding: 11px;
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 9px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+.inputFilds:focus {
+  border-color: #9b9b60; /* Highlights the field when typing */
+  box-shadow: 0 0 5px rgba(155, 155, 96, 0.3);
+}
+#submitBtn {
+  padding: 10px 12px 10px 14px;
+  border: none;
+  border-radius: 28px;
+  width: 176px;
+  margin: 1rem 4rem;
+}
+#submitBtn:hover {
+  background-color: #7a7a4a;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+a {
+  align-self: center;
+  text-decoration: none;
+  color: #cfc7c7f2;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+#forgotPassword {
+  margin-left: 5rem;
+}
+#help-Source {
+  margin: 0.5rem;
+}
+#remember {
+  cursor: pointer;
+}
+#reginsterBtn {
+  text-decoration: none;
+  color: #cfc7c7f2;
+  font-weight: 600;
+}
+#reginsterBtn:hover {
+  text-decoration: underline;
+  color: blue;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formValidation.css" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="buttons">
+            <button class="userLoginMethod" id="signIn">Sign In</button>
+            <button class="userLoginMethod" id="register">Reginster</button>
+        </div>
+        <div class="userImage"></div>
+        <div class="formDiv" id="reginsterForm">
+            <form action="GET">
+                <p>
+                    <input type="text" placeholder="Enter YourName" class="inputFilds" id="name" />
+                </p>
+                <p>
+                    <input type="password" name="password" placeholder="Enter a password" class="inputFilds"
+                        id="password" minlength="6" />
+                </p>
+                <p>
+                    <input type="password" name="password" id="checkPassword" placeholder="Confirm Password"
+                        class="inputFilds" />
+                </p>
+                <input type="submit" id="submitBtn" value="Reginster">
+                <a href="#">Sign In</a>
+            </form>
+        </div>
+        <!-- The sign in formate -->
+        <div class="formDiv" id="signInForm">
+            <form action="GET">
+                <p>
+                    <input type="text" name="userName" placeholder="Enter YourName" class="inputFilds" id="userName" />
+                </p>
+                <p>
+                    <input type="password" name="password" placeholder="Enter a password" class="inputFilds"
+                        id="userPassword" />
+                </p>
+                <p id="help-Source">
+                    <input type="checkbox" name="remeberMe" id="remember"> Remeber Me
+                    <a href="#" id="forgotPassword">forgot password</a>
+                </p>
+                <input type="submit" id="submitBtn" value="Sign In">
+                <a href="#">Reginster</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- script tag -->
+    <script src="formValidation.js"></script>
+</body>
+
+</html>
